@@ -31,6 +31,18 @@ namespace Csharp
             }
         }
 
+        public void Prepend(T value)
+        {
+            // insert a new vale at the beginning of the list
+            // move the head to a new variable
+            // create a new head
+            // point the head to the new variable
+            var newHead = new Node<T>(value);
+            var oldHead = head;
+            head = newHead;
+            head.Next = oldHead;
+        }
+
         public void PrintAllValues()
         {
             if (head == null)

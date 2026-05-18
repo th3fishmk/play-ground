@@ -18,3 +18,7 @@ numberList.Append(4);
 numberList.Append(5);
 
 numberList.PrintAllValues();
+
+numberList.Prepend(0);
+
+numberList.PrintAllValues();
