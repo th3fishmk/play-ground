@@ -23,7 +23,6 @@ namespace Csharp
                 //     next = ref next.Next;
                 // }
                 // next ??= newNode;
-
                 var current = head;
 
                 while (current.Next != null)
@@ -36,10 +35,6 @@ namespace Csharp
 
         public void Prepend(T value)
         {
-            // insert a new vale at the beginning of the list
-            // move the head to a new variable
-            // create a new head
-            // point the head to the new variable
             var newHead = new Node(value);
             var oldHead = head;
             head = newHead;
