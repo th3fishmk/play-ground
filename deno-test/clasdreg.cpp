@@ -7,7 +7,6 @@ class clasdreg
 public:
     clasdreg();
     ~clasdreg();
-    
 };
 
 clasdreg::clasdreg()

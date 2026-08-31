@@ -1,5 +1,3 @@
 export class ClassName {
-    constructor(params) {
-        
-    }
+	constructor(params) {}
 }

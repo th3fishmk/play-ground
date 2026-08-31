@@ -7,7 +7,6 @@ class ge
 public:
     ge();
     ~ge();
-    
 };
 
 ge::ge()
